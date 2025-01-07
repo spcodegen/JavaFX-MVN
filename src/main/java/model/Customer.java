@@ -12,9 +12,7 @@ import java.time.LocalDate;
 
 public class Customer {
     private String id;
-    private String title;
     private String name;
-    private LocalDate dob;
     private String address;
     private Double salary;
 }

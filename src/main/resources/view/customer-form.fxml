@@ -11,7 +11,6 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#004483" height="61.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
@@ -31,10 +30,11 @@
             <TableColumn fx:id="colSalary" prefWidth="110.0" text="Salary" />
         </columns>
       </TableView>
-      <Label layoutX="210.0" layoutY="13.0" text="Customer Form">
+      <Label layoutX="210.0" layoutY="13.0" text="Customer Form" textFill="#ff4141">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
+      <Button layoutX="416.0" layoutY="149.0" mnemonicParsing="false" onAction="#btnViewAllOnAction" text="View All" />
    </children>
 </AnchorPane>
